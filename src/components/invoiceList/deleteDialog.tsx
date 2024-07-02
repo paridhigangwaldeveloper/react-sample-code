@@ -15,6 +15,10 @@ interface DeleteDialogProps {
   onConfirm: () => void;
 }
 
+
+
+
+
 const DeleteDialog: React.FC<DeleteDialogProps> = ({
   open,
   onClose,
