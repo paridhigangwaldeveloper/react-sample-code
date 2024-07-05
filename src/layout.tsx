@@ -14,6 +14,7 @@ import { useLoader } from "./contexts/LoaderContext";
 function Layout() {
   const location = useLocation();
   const { loaderType, loading } = useLoader();
+  console.log("object")
   return (
     <Box className={location.pathname !== "/login" ? "mainLayout" : ""}>
       <ToastContainer />
