@@ -90,7 +90,7 @@ function InvoiceForm({
     }));
     setFieldValue("items", updatedItems, false);
   }, [values.items, setFieldValue]);
-
+console.log("object")
   const getItemError = (index: number, field: string): string | null => {
     if (
       errors.items &&
