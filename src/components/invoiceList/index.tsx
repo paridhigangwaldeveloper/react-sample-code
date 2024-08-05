@@ -36,6 +36,7 @@ function InvoiceList({
   const [itemToDelete, setItemToDelete] = useState("");
 
   const handleClickOpen = () => {
+    console.log("clicked")
     setOpen(true);
   };
 
