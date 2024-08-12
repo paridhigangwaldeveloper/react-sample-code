@@ -45,7 +45,7 @@ function InvoiceList({
     setItemToDelete("");
   };
 console.log("object")
-console.log("object")
+
   const handleConfirm = async () => {
     await deleteInvoice(itemToDelete);
     handleClose();
