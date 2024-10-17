@@ -108,9 +108,6 @@ console.log("object")
 console.log("object")
 console.log("object")
 
-console.log("object")
-console.log("object")
-
   const getTitle = (): string => {
     switch (mode) {
       case "create":
